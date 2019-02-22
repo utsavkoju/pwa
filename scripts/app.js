@@ -12,8 +12,8 @@ async function onLoadAsync() {
     let targetElementId = '#mainone'
     //let animeId = document.querySelector("#anime_id_input").value
     try {
-        // const response = await fetch('http://admin.kronoshev.com/api/page/hello-world')
-         const response = await  fetch('https://api.jikan.moe/anime/1000')
+        const response = await fetch('https://membership.delta-v.solutions/api/page/about')
+         //const response = await  fetch('https://api.jikan.moe/anime/1000')
         
 
         if (!response.ok) {
